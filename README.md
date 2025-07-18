@@ -1,15 +1,6 @@
 # Final_MineriaDeDatosI
 
 FINAL MINERIA DE DATOS
-Condiciones de examen:
--
-Se deberá entregar este examen vía mail hasta las 23 hs (Kevin.kovacs@istea.com.ar).
--
-Cualquier error que haya en el examen, avisar por mail.
--
-El dataset recoge datos de los ingresos de habitantes mediante un censo.
--
-Responder todo en un notebook. Las preguntas son teóricas-prácticas y pueden utilizar celdas de texto para el análisis y código para Python. Pueden también comentar en el mismo código, es indistinto.
 -
 Deberán leer el dataset de la siguiente manera:
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
