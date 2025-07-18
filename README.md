@@ -1,27 +1,7 @@
 # Final_MineriaDeDatosI
 
 FINAL MINERIA DE DATOS
--
-Deberán leer el dataset de la siguiente manera:
-url = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
-columns = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status', 'occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country', 'income']
-df = pd.read_csv(url, names=columns, na_values=' ?', skipinitialspace=True)
-Las características del dataset son las siguientes:
-age (edad): La edad del individuo.
-workclass (clase de trabajo): Una categoría que indica el tipo de empleo del individuo, por ejemplo, "Privado", "Autónomo", "Gobierno Estatal", etc.
-fnlwgt (peso final): Este es un peso calculado por el Censo que indica el número de personas representadas por el individuo en el dataset. Es usado en análisis de muestras para hacer inferencias sobre la población.
-education (nivel educativo): El nivel más alto de educación alcanzado por el individuo, por ejemplo, "Bachillerato", "Licenciatura", "Máster", etc.
-education-num (número de educación): Una versión numérica del nivel educativo, donde los niveles de educación se codifican como números enteros.
-marital-status (estado civil): El estado civil del individuo, por ejemplo, "Nunca casado", "Casado", "Divorciado", etc.
-occupation (ocupación): El tipo de ocupación del individuo, por ejemplo, "Administrador", "Cocinero", "Profesor", etc.
-relationship (relación): Describe la relación del individuo con otros miembros de la familia, por ejemplo, "Cónyuge", "Hijo/a", "Jefe/a de familia", etc.
-race (raza): La raza del individuo, por ejemplo, "Blanco", "Negro", "Asiático", "Indio Americano", etc.
-sex (sexo): El sexo del individuo, es decir, "Masculino" o "Femenino".
-capital-gain (ganancia de capital): Ingreso adicional del individuo procedente de inversiones, ventas de activos, etc., en el último año.
-capital-loss (pérdida de capital): Pérdida financiera del individuo procedente de inversiones, ventas de activos, etc., en el último año.
-hours-per-week (horas por semana): El número de horas que el individuo trabaja por semana.
-native-country (país de origen): El país de origen del individuo.
-income (ingreso): El rango de ingresos del individuo, clasificado en dos categorías: <=50K para ingresos menores o iguales a 50,000 dólares anuales, y >50K para ingresos mayores a 50,000 dólares anuales.
+
 PUNTOS A RESOLVER
 1) Valores faltantes
 a. ¿Cuántas filas tienen al menos un valor faltante? ¿Qué porcentaje representan sobre el total?
